@@ -19,7 +19,7 @@ A web page for our devArmy002 telegram group.
 3. Once Development Done, Request PR for same issue number and I will verify and merge the code.
 
 ## Guidance,
-1. Make one separate html page for each page and link that html on main navigation menu inside <b>a</a> tag.</br>
+1. Make one separate html page for each page and link that html on main navigation menu inside <b>a</b> tag.</br>
 2. Make sure you follow tha same design pattern throughout the website.</br>
 3. Make sure to include <b>NAV</b> in all the html page.</br>
 4. Make sure whatever you code is responsive for all screen size.</br>
