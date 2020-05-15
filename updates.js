@@ -1,7 +1,7 @@
 const containermain = document.getElementById('container-main')
 
 const fetchNews = async ()=>{
-    const fetchNews = await fetch('http://newsapi.org/v2/top-headlines?country=in&from=2020-05-14&sortBy=popularity&apiKey=6f1082065f47444fb604f6801b3b7ffa&category=technology')
+    const fetchNews = await fetch('https://newsapi.org/v2/top-headlines?country=in&from=2020-05-14&sortBy=popularity&apiKey=6f1082065f47444fb604f6801b3b7ffa&category=technology')
     const res = await fetchNews.json();
     createSingleNews(res.articles)
 } 
