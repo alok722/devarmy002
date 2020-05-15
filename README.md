@@ -29,4 +29,8 @@ A web page for our devArmy002 Telegram group.
 https://github.com/bradtraversy/design-resources-for-developers
 
 ## Web-App-Demo
-https://alok722.github.io/devarmy002/index.html
+https://alok722.github.io/devarmy002/index.html  
+
+## Project Map
+
+![ProjectMap](Capture.JPG)

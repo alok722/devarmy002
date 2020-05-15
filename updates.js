@@ -16,7 +16,14 @@ function createSingleNews(articles){
             const singlenews = document.createElement('div')
             const authortext = article.author ? article.author : "Not available" 
             singlenews.classList.add("single-news")
-            singlenews.innerHTML = `<h3><a target="_blank" href='${article.url}'>${article.title}</a></h3><div class='news-details'><p>Source: ${article.source.name}</p><p>Author: ${authortext}</p></div><p>${article.description}</p>`
+            singlenews.innerHTML = `<div class="news-thumbnail">
+                                        <img src="${article.urlToImage}" >
+                                     </div>
+                                    <div class="news-details">
+                                        <h3><a target="_blank" href='${article.url}'>${article.title}</a></h3>
+                                        <div class='article-details'><p>Source: ${article.source.name}</p><p>Author: ${authortext}</p></div>
+                                        <p>${article.description}</p>
+                                    </div>`
             containermain.appendChild(singlenews)
         }       
     });
