@@ -33,4 +33,4 @@ https://alok722.github.io/devarmy002/index.html
 
 ## Project Map
 
-![ProjectMap](Capture.JPG)
+![ProjectMap](images/objective.jpg)
